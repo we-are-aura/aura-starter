@@ -14,9 +14,9 @@
 
 <p align="center">
   <a href="CONTRIBUTING.md">Guia de Contribuição</a>
-  Â·
+  ·
   <a href="https://github.com/AURA-projects/aura-starter/issues">Reportar um Problema</a>
-  Â·
+  ·
   <a href="https://github.com/AURA-projects">Blog / Atualizações</a>
   <br><br>
 </p>
