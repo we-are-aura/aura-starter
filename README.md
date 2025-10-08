@@ -1,4 +1,4 @@
-<h1 align="center">AURA Starter Universal Project Template</h1>
+<h1 align="center">AURA Starter Project Template</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AURA-projects/aura-starter/main/.github/assets/aura-logo.png" alt="aura-logo" width="120px" height="120px"/>
