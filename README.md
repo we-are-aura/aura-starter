@@ -1,208 +1,91 @@
-<h1 align="center">AURA Starter Project Template</h1>
+<h1 align="center"> AURA Starter</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AURA-projects/aura-starter/main/.github/assets/aura-logo.png" alt="aura-logo" width="120px" height="120px"/>
+  <img src="https://avatars.githubusercontent.com/u/00000000?s=200&v=4" alt="AURA Logo" width="120px" height="120px"/>
   <br>
-  <em>O AURA Starter é um template universal para iniciar qualquer projeto - simples, consistente e pronto para expansão.</em>
-  <br>
-</p>
-
-<p align="center">
-  <a href="https://github.com/AURA-projects"><strong>AURA-projects</strong></a>
+  <em>Template inicial para projetos da AURA-projects</em>
   <br>
 </p>
 
 <p align="center">
-  <a href="CONTRIBUTING.md">Guia de Contribuição</a>
-  ·
-  <a href="https://github.com/AURA-projects/aura-starter/issues">Reportar um Problema</a>
-  ·
-  <a href="https://github.com/AURA-projects">Blog / Atualizações</a>
-  <br><br>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Versão">
-  <img src="https://img.shields.io/github/actions/workflow/status/AURA-projects/aura-starter/ci.yml?label=CI/CD" alt="Build Status">
-  <img src="https://img.shields.io/github/license/AURA-projects/aura-starter?color=green" alt="License">
+  <a href="https://github.com/we-are-aura/aura-governance">AURA Governance</a> ·
+  <a href="https://github.com/we-are-aura/aura-governance/blob/main/CONTRIBUTING.md">Guia de Contribuição</a> ·
+  <a href="https://github.com/we-are-aura/aura-governance/tree/main/TEMPLATES">Modelos de Issue</a> ·
+  <a href="https://github.com/we-are-aura/aura-governance/blob/main/TEMPLATES/PULL_REQUEST_TEMPLATE.md">Modelo de Pull Request</a>
 </p>
 
 <hr>
 
-## 📘 Documentação 
+## 📘 Sobre este Repositório
 
-Aprenda como usar, configurar e expandir este template de forma rápida e padronizada.
+O **aura-starter** é um template inicial para qualquer projeto da **AURA-projects**.  
+Ele fornece:
 
-- [Introdução][getting-started]
-- [Estrutura do Projeto][structure]
-- [Configuração Inicial][setup]
-- [Padrões e Boas Práticas][guidelines]
-- [Automação CI/CD][cicd]
-- [Governança e Segurança][governance]
+- Estrutura de pastas (`src/`, `tests/`, `docs/`);
+- Configuração mínima da stack (Node.js, Angular, Python, etc.);
+- Templates padrão de issues, PRs e CODEOWNERS;
+- Referência central às políticas organizacionais da AURA.
 
-### Recursos Avançados
-
-- [Versionamento Semântico][semver]
-- [Proteção de Branches][branch-protection]
-- [Code Owners e Revisões][codeowners]
-- [Dependabot e Atualizações][dependabot]
-- [Integração Contínua][ci]
-- [Deploy Automatizado][deployment]
+> **Nota:** Todas as diretrizes de governança, versionamento, contribuição e conduta estão centralizadas em [AURA Governance](https://github.com/we-are-aura/aura-governance).
 
 ---
 
-## 🧩 Desenvolvimento Local
-
-### Pré-requisitos
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) *(ou o runtime aplicável ao projeto)*
-- [Docker](https://www.docker.com/) *(opcional para ambiente isolado)*
-
-### Clonar o Projeto
-
-```bash
-git clone https://github.com/AURA-projects/aura-starter.git
-cd aura-starter
+## 🛠️ Estrutura Inicial
 ```
-
-### Configurar Ambiente
-
-```bash
-# Instale dependência (exemplo genérico)
-npm install
-# ou
-pip install -r requirements.txt
-```
-
-### Executar o Projeto
-
-```bash
-# Exemplo genérico 
-npm run start
-# ou
-python main.py
-```
-
-> Este template é agnóstico de linguagem. Adapte os comandos conforme a stack do seu projeto (Node, Python, Java, Go, etc).
-
----
-
-## 🚀 Estrutura Padrão 
-
-```
-.
-├── .github/
-│   ├── workflows/           # Pipelines CI/CD
-│   ├── ISSUE_TEMPLATE/      # Templates de issues
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   ├── CODEOWNERS
-│   └── dependabot.yml
+aura-starter/
 │
-├── docs/                    # Documentação do projeto
-├── src/                     # Código-fonte
-├── tests/                   # Testes automatizados
-│
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-├── LICENSE
+├── README.md
+├── .gitignore
+├── package.json / pyproject.toml / build.gradle ...
+├── src/
+├── tests/
+├── docs/
+└── .github/
+├── ISSUE_TEMPLATE/
+│ ├── bug_report.md
+│ └── feature_request.md
+├── PULL_REQUEST_TEMPLATE.md
+└── CODEOWNERS
 ```
 
 ---
 
-## 🛠️ Configuração Inicial de Projeto
+## 🚀 Como Usar
 
-1. **Crie um novo repositório** apartir deste template:
-→ Use o botão "Use this template" no topo da página.
+1. **Clone o template**:
+```bash
+git clone https://github.com/we-are-aura/aura-starter.git <nome-do-projeto>
+```
+2. **Configure a stack** conforme sua tecnologia:
+Node.js / Angular / React / Python / etc.
+3. **Atualize o README.md** com informações do projeto específico.
+4. **Referencie o AURA Governance** para diretrizes de contribuição, versionamento e conduta.
 
-2. Atualize os metadados:
+## 📌 Boas Práticas
+- Use **branches** seguindo o padrão definido em `CONTRIBUTING.md`.
+- Realize **commits semânticos** (`feat`, `fix`, `docs`, etc.).
+- Sempre **crie Pull Request**s para qualquer alteração.
+- Mantenha o **README.md e documentação** atualizados.
+- Teste localmente antes de qualquer merge ou release.
 
-Nome e descrição do projeto (README.md, package.json, etc.)
+## 🔗 Recursos Úteis
 
-Informações de licença e autores (LICENSE)
+ <a href="https://github.com/we-are-aura/aura-governance">AURA Governance</a>
+ – Políticas centrais
 
-Responsáveis (CODEOWNERS)
 
-3. Configure Secrets e Variáveis:
-Defina tokens e chaves no GitHub → Settings → Secrets and variables → Actions
+  
+ <a href="https://github.com/we-are-aura/aura-governance/blob/main/CONTRIBUTING.md">Guia de Contribuição</a>
+ – Fluxo de contribuição
 
-4. Personalize o CI/CD conforme o tipo de projeto.
-(Veja exemplos em .github/workflows/)
+<a href="https://github.com/we-are-aura/aura-governance/tree/main/TEMPLATES">Modelos de Issue</a>
+ – Modelos de issues
 
----
+<a href="https://github.com/we-are-aura/aura-governance/blob/main/TEMPLATES/PULL_REQUEST_TEMPLATE.md">Modelo de Pull Request</a>
+ – Modelo de PR
 
-⚙️ Padrões e Boas Práticas
+[CODEOWNERS](https://github.com/we-are-aura/aura-governance/blob/main/TEMPLATES/CODEOWNERS)
+ – Responsáveis por áreas do projeto
 
-- **Commits:** siga o padrão [Conventional Commits](https://www.conventionalcommits.org/)  
-- **Branches:** `main` (produção), `develop` (integração), `feature/*`, `fix/*`, `release/*`  
-- **Revisão:** PRs devem ser aprovados por pelo menos 1 Code Owner  
-- **Versionamento:** siga o [SemVer 2.0.0](https://semver.org/lang/pt-BR/)
+<p align="center"> <em>O aura-starter permite criar novos projetos de forma rápida, consistente e alinhada às políticas da AURA-projects.</em><br> ⭐ <a href="https://github.com/we-are-aura/aura-starter">Use este template para novos projetos</a> </p>
 
----
-
-## 📦 CI/CD
-
-- Workflow padrão: `.github/workflows/ci.yml`
-- Testes e lint executados em cada Pull Request
-- Deploy configurável via Environments (`staging` / `production`)
-- Dependabot ativo para atualizações automáticas de dependências 
-
----
-
-## 🤝 Contribuindo
-
-Veja o [CONTRIBUTING.md](CONTRIBUTING.md) para o processo de contribuição.  
-Antes de abrir um PR:
-1. Verifique se os testes passam (`npm test`, `pytest`, etc.)
-2. Atualize a documentação, se aplicável.
-3. Siga as convenções de código e commits.
-
----
-
-## 🛡️ Código de Conduta
-
-Mantenha o ambiente colaborativo e inclusivo.  
-Consulte o arquivo [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) para mais informações.
-
----
-
-## 🔒 Segurança
-
-Para reportar vulnerabilidades, siga as instruções em [SECURITY.md](SECURITY.md).  
-**Nunca abra issues públicas contendo informações sensíveis.**
-
----
-
-## 🧠 Comunidade
-
-Junte-se à comunidade AURA-projects para discutir, colaborar e evoluir ideias:
-
-- [Discord](https://discord.gg/)
-- [X (Twitter)](https://twitter.com/)
-- [YouTube](https://youtube.com/)
-- [Blog da Organização](https://github.com/AURA-projects)
-
-[![Love Aura badge](https://img.shields.io/badge/aura-love-blue?logo=github)](https://github.com/AURA-projects)
-
----
-
-## 📜 Licença
-
-Distribuído sob os termos da [MIT License](LICENSE).  
-© AURA-projects — Todos os direitos reservados.
-
----
-
-[getting-started]: docs/getting-started.md
-[structure]: docs/structure.md
-[setup]: docs/setup.md
-[guidelines]: docs/guidelines.md
-[cicd]: docs/ci-cd.md
-[governance]: docs/governance.md
-[semver]: https://semver.org/
-[branch-protection]: https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests
-[codeowners]: .github/CODEOWNERS
-[dependabot]: .github/dependabot.yml
-[ci]: .github/workflows/ci.yml
-[deployment]: docs/deployment.md
