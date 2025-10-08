@@ -2,7 +2,7 @@
 # Sintaxe: path  @username ou @teamname
 
 # Diretório raiz
-/ @aura-core-maintainers
+* @aura-core-maintainers
 
 # Diretório de código-fonte principal
 /src/ @project-maintainers
