@@ -1,0 +1,14 @@
+# Define os responsáveis pelos arquivos e diretórios do projeto
+# Sintaxe: path  @username ou @teamname
+
+# Diretório raiz
+/ @aura-core-maintainers
+
+# Diretório de código-fonte principal
+/src/ @project-maintainers
+
+# Documentação
+/docs/ @docs-team
+
+# CI/CD e pipelines
+/.github/workflows/ @devops-team
