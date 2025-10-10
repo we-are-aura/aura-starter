@@ -1,3 +1,17 @@
+## Descrição
+Descreva brevemente as mudanças feitas.
+
+## Tipo de alteração
+- [ ] Bug fix
+- [ ] Nova feature
+- [ ] Documentação
+- [ ] Refatoração
+
+## Checklist
+- [ ] Código testado
+- [ ] Documentação atualizada
+- [ ] Revisado por pelo menos 1 Code Owner
+
 # Descrição do Pull Request
 
 <!-- Descreva de forma clara o que este PR faz -->

@@ -1,4 +1,25 @@
 ---
+<<<<<<< HEAD
+name: "🐞 Bug Report"
+about: Reportar um problema encontrado
+labels: bug
+---
+
+**Descrição do bug**
+Descreva claramente o problema.
+
+**Passos para reproduzir**
+1. Vá para '...'
+2. Clique em '...'
+3. Erro exibido: '...'
+
+**Comportamento esperado**
+O que deveria acontecer?
+
+**Ambiente**
+- SO: [ex: Ubuntu 22.04]
+- Versão do projeto: [ex: v1.0.0]
+=======
 name: Bug Report
 about: Reporte um bug no projeto
 title: "[BUG] "
@@ -31,3 +52,4 @@ Se aplicável, adicione imagens para ilustrar o problema.
 
 ## Informações Adicionais
 Qualquer outro dado relevante para ajudar na resolução.
+>>>>>>> 7adb215f06584d46f554753c64a2c2a4dabf711a
